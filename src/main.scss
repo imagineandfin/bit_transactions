@@ -1,0 +1,106 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+	text-align: center;
+}
+.autorization-form, .addtransaction-form {
+	margin: 50px auto;
+	width: 320px;
+	border: 1px solid #A9E2F3;
+	background-color: #CEF6F5;
+}
+input {
+	display: block;
+	margin: 20px auto;
+	height: 30px;
+	width: 250px;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 15px;
+	outline: 0;
+	border: 1px solid #819FF7;
+	
+}
+.addtransaction-form__button-addtransaction, .autorization-form__button-submit{
+	border-radius: 15px;
+	margin: 30px auto 30px;
+	height: 30px;
+	font-size: 20px;
+	outline: 0;
+	border: 0;
+	background-color: #9FF781;
+	box-shadow: 3px 3px 5px #333;
+	display: block;
+	padding:  0 20px;
+}
+button:hover {
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #333,
+							inset 0 0 8px #222;
+}
+button:active {
+	box-shadow: inset 0 0 8px #222;
+}
+option {
+	color: #000;
+
+}
+select {
+	@extend input;
+	color: #888;
+	padding-left: 60px;
+	border-radius: 15px 15px 0 0 ;
+	border-bottom: none;
+}
+.form-viewtransaction {
+	margin: 50px auto;
+	border: 1px solid #A9E2F3;
+	background-color: #CEF6F5;
+	width: 700px;
+}
+table {
+	background-color: #fff;
+	margin: 20px auto;	
+}
+td, th {
+	padding: 5px 20px;
+	text-align: center;
+}
+.button-deletetransaction {
+	border: 0;
+	outline: 0;
+	height: 16px;
+	border-radius: 9px;
+	background-color: #9FF781;
+	box-shadow: 3px 3px 5px #333;
+	display: block;
+	margin: auto;
+}
+ul{
+	list-style: none;
+	margin: 30px auto;
+	width: 600px;
+	padding: 0;
+}
+li {
+	display: inline-block;
+	margin: 0 20px;
+	background-color: #CEF6F5;
+	padding: 5px 10px;
+	border-radius: 14px;
+	background-color: #9FF781;
+	box-shadow: 3px 3px 5px #333;
+}
+a {
+	color: #000;
+	text-decoration: none;
+}
+li:hover {
+	box-shadow: 2px 2px 5px #333,
+							inset 0 0 8px #222;
+}
+li:active {
+	box-shadow: inset 0 0 8px #222;
+}
